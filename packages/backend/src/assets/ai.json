@@ -285,11 +285,7 @@
       "categories": ["natural-language-processing"],
       "basedir": "recipes/natural_language_processing/text-to-sql",
       "readme": "# Text-to-SQL Query Generator Application\n\nThis recipe helps developers build AI-powered applications that convert natural language questions into SQL queries. It consists of two main components: the Model Service and the AI Application.\n\nThe application uses an LLM to understand database schemas and generate accurate SQL queries from plain English questions, making database querying accessible to non-technical users.\n\n## Features\n\n- Natural language to SQL query conversion\n- Support for multiple database schemas\n- Query validation and explanation\n- Interactive query testing interface\n\n## Try the Text-to-SQL Application\n\nThe [Podman Desktop](https://podman-desktop.io) [AI Lab Extension](https://github.com/containers/podman-desktop-extension-ai-lab) includes this recipe among others. To try it out, open `Recipes Catalog` -> `Text-to-SQL Query Generator` and follow the instructions to start the application.\n\n## Use Cases\n\n- Business intelligence and analytics\n- Database query assistants\n- Data exploration tools\n- Educational SQL learning platforms\n",
-      "recommended": [
-        "hf.ibm-granite.granite-3.3-8b-instruct-GGUF",
-        "hf.ibm-research.granite-3.2-8b-instruct-GGUF",
-        "hf.ibm-granite.granite-8b-code-instruct"
-      ],
+      "recommended": ["hf.ibm-granite.granite-3.3-8b-instruct-GGUF", "hf.ibm-research.granite-3.2-8b-instruct-GGUF"],
       "backend": "llama-cpp",
       "languages": ["python"],
       "frameworks": ["streamlit", "langchain"]
@@ -323,10 +319,7 @@
       "categories": ["natural-language-processing"],
       "basedir": "recipes/natural_language_processing/document-qa",
       "readme": "# Document Question Answering Application\n\nThis recipe helps developers build AI-powered document question answering applications. It consists of two main components: the Model Service and the AI Application.\n\nThe application allows users to upload documents and ask questions about their content. The LLM reads and understands the document context to provide accurate answers with source citations.\n\n## Features\n\n- Multi-format document support (PDF, TXT, DOCX, MD)\n- Context-aware question answering\n- Source citation and highlighting\n- Multiple document comparison\n- Question history and bookmarking\n\n## Try the Document Q&A Application\n\nThe [Podman Desktop](https://podman-desktop.io) [AI Lab Extension](https://github.com/containers/podman-desktop-extension-ai-lab) includes this recipe among others. To try it out, open `Recipes Catalog` -> `Document Q&A` and follow the instructions to start the application.\n\n## Use Cases\n\n- Research paper analysis\n- Legal document review\n- Technical documentation navigation\n- Contract analysis\n- Educational material comprehension\n",
-      "recommended": [
-        "hf.ibm-granite.granite-3.3-8b-instruct-GGUF",
-        "hf.ibm-research.granite-3.2-8b-instruct-GGUF"
-      ],
+      "recommended": ["hf.ibm-granite.granite-3.3-8b-instruct-GGUF", "hf.ibm-research.granite-3.2-8b-instruct-GGUF"],
       "backend": "llama-cpp",
       "languages": ["python"],
       "frameworks": ["streamlit", "langchain"]
@@ -341,10 +334,7 @@
       "categories": ["natural-language-processing"],
       "basedir": "recipes/natural_language_processing/meeting-summarizer",
       "readme": "# Meeting Summarizer Application\n\nThis recipe helps developers build AI-powered meeting summarization applications. It consists of two main components: the Model Service and the AI Application.\n\nThe application processes meeting transcripts to generate concise summaries, extract action items, identify key decisions, and highlight important discussion points.\n\n## Features\n\n- Automatic meeting summarization\n- Action item extraction with assignees\n- Key decision identification\n- Topic segmentation\n- Attendee contribution analysis\n- Export summaries to multiple formats\n\n## Try the Meeting Summarizer Application\n\nThe [Podman Desktop](https://podman-desktop.io) [AI Lab Extension](https://github.com/containers/podman-desktop-extension-ai-lab) includes this recipe among others. To try it out, open `Recipes Catalog` -> `Meeting Summarizer` and follow the instructions to start the application.\n\n## Use Cases\n\n- Team meeting notes\n- Client call summaries\n- Board meeting documentation\n- Project status updates\n- Interview summaries\n",
-      "recommended": [
-        "hf.ibm-granite.granite-3.3-8b-instruct-GGUF",
-        "hf.ibm-research.granite-3.2-8b-instruct-GGUF"
-      ],
+      "recommended": ["hf.ibm-granite.granite-3.3-8b-instruct-GGUF", "hf.ibm-research.granite-3.2-8b-instruct-GGUF"],
       "backend": "llama-cpp",
       "languages": ["python"],
       "frameworks": ["streamlit", "langchain"]
@@ -359,10 +349,7 @@
       "categories": ["natural-language-processing"],
       "basedir": "recipes/natural_language_processing/email-assistant",
       "readme": "# Email Assistant Application\n\nThis recipe helps developers build AI-powered email assistant applications. It consists of two main components: the Model Service and the AI Application.\n\nThe application uses an LLM to help compose professional emails, generate replies, summarize long email threads, and categorize incoming messages for better email management.\n\n## Features\n\n- Email composition from bullet points\n- Smart reply suggestions\n- Email thread summarization\n- Tone adjustment (formal, casual, friendly)\n- Email categorization and prioritization\n- Grammar and clarity improvements\n\n## Try the Email Assistant Application\n\nThe [Podman Desktop](https://podman-desktop.io) [AI Lab Extension](https://github.com/containers/podman-desktop-extension-ai-lab) includes this recipe among others. To try it out, open `Recipes Catalog` -> `Email Assistant` and follow the instructions to start the application.\n\n## Use Cases\n\n- Professional email composition\n- Customer service responses\n- Email inbox management\n- Business communication\n- Multilingual email translation\n",
-      "recommended": [
-        "hf.ibm-granite.granite-3.3-8b-instruct-GGUF",
-        "hf.ibm-research.granite-3.2-8b-instruct-GGUF"
-      ],
+      "recommended": ["hf.ibm-granite.granite-3.3-8b-instruct-GGUF", "hf.ibm-research.granite-3.2-8b-instruct-GGUF"],
       "backend": "llama-cpp",
       "languages": ["python"],
       "frameworks": ["streamlit", "langchain"]
@@ -377,10 +364,7 @@
       "categories": ["natural-language-processing"],
       "basedir": "recipes/natural_language_processing/text-classifier",
       "readme": "# Text Classification Application\n\nThis recipe helps developers build AI-powered text classification applications. It consists of two main components: the Model Service and the AI Application.\n\nThe application uses an LLM to automatically categorize text into predefined categories, making it easy to organize, route, and analyze large volumes of textual data.\n\n## Features\n\n- Multi-label classification\n- Custom category definitions\n- Batch processing\n- Confidence scoring\n- Classification explanation\n- Export results to CSV/JSON\n\n## Try the Text Classifier Application\n\nThe [Podman Desktop](https://podman-desktop.io) [AI Lab Extension](https://github.com/containers/podman-desktop-extension-ai-lab) includes this recipe among others. To try it out, open `Recipes Catalog` -> `Text Classifier` and follow the instructions to start the application.\n\n## Use Cases\n\n- Customer support ticket routing\n- Content moderation\n- News article categorization\n- Document organization\n- Intent classification for chatbots\n",
-      "recommended": [
-        "hf.ibm-granite.granite-4.0-micro-GGUF",
-        "hf.ibm-granite.granite-3.3-8b-instruct-GGUF"
-      ],
+      "recommended": ["hf.ibm-granite.granite-4.0-micro-GGUF", "hf.ibm-granite.granite-3.3-8b-instruct-GGUF"],
       "backend": "llama-cpp",
       "languages": ["python"],
       "frameworks": ["streamlit", "langchain"]
